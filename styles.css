@@ -1,2 +1,27 @@
 
 /* Your CSS Code here. */
+tr,
+      td {
+        width: 65px;
+        height: 45px;
+      }
+
+      .row_one {
+        width: 125px;
+        height: 125px;
+      }
+
+      .row_two {
+        width: 255px;
+        height: 255px;
+      }
+
+      .row_three {
+        width: 517px;
+        height: 517px;
+      }
+
+      .row_four {
+        width: 1565px;
+        height: 1025px;
+      }
