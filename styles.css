@@ -1,27 +1,28 @@
-
-/* Your CSS Code here. */
-tr,
-      td {
-        width: 65px;
-        height: 45px;
-      }
-
-      .row_one {
-        width: 125px;
-        height: 125px;
-      }
-
-      .row_two {
-        width: 255px;
-        height: 255px;
-      }
-
-      .row_three {
-        width: 517px;
-        height: 517px;
-      }
-
-      .row_four {
-        width: 1565px;
-        height: 1025px;
-      }
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.container-fluid {
+	width: 100%;
+	margin: auto;
+}
+.row {
+	display: flex;
+	gap: 5px;
+}
+.col-sm-1 {
+	width: calc(100% / 12);
+}
+.col-sm-2 {
+	width: calc(100% / 6);
+}
+.col-sm-4 {
+	width: calc(100% / 3);
+}
+.col-sm-12 {
+	width: 100%;
+}
+img {
+	width: 100%;
+}
